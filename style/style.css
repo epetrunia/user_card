@@ -33,3 +33,16 @@ body {
     font-size: 2em;
     font-weight: bold;
  }
+
+.UserPic {
+    margin: 25px;
+}
+
+.UserPic img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    overflow: hidden;
+    margin: auto;
+    border-radius: 50%;
+}
