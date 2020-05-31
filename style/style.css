@@ -1,0 +1,22 @@
+:root {
+    --user-card-width: 400px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background: gray;
+}
+
+.UserCard {
+    width: var(--user-card-width);
+    max-height: 700px;
+    height: 100%;
+    min-height: 600px;
+    background-color: #44454a;
+    border-radius: 25px;
+    overflow: hidden;
+    margin: 20px;
+}
