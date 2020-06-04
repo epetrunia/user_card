@@ -24,6 +24,8 @@ body {
     overflow: hidden;
     margin: 20px;
     display: inline-block;
+    border: 1px solid #5B6FA8;
+    box-shadow: 4px 4px 7px #5B6FA8;
 }
 
 .UserName {
@@ -32,6 +34,7 @@ body {
     padding: 1em;
     font-size: 2em;
     font-weight: bold;
+    line-height: 1.3em;
  }
 
 .UserPic {
@@ -44,7 +47,8 @@ body {
     object-fit: cover;
     overflow: hidden;
     margin: auto;
-    border-radius: 50%;
+    border-radius: 100%;
+    border: 2px solid #5B6FA8;
 }
 
 .UserInfo{
@@ -76,12 +80,18 @@ body {
 .UserLinks {
     display: inline-block;
     margin-top: 35px;
+    margin-bottom: 30px;
 }
 
 .UserLinks a{
     text-decoration: none;
     padding: 15px 35px;
     border-radius: 20px;
+}
+
+.button {
+    display: inline-block;
+    width: 150px;
 }
 
 .BlueButton {
